@@ -9,17 +9,19 @@ public class Pet {
 
     public Pet() {
         this.name = "";
-        this.age = 0;
+        this.age = -1;
     }
 
     public Pet(String name, Integer age) {
+        this.name = name;
+        this.age = age;
     }
 
     public String getName() {
-        return null;
+        return name;
     }
 
     public Integer getAge() {
-        return null;
+        return age;
     }
 }
